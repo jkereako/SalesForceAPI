@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		62F4D6891C55CA90002E2E4B /* Swish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F4D6851C55CA90002E2E4B /* Swish.framework */; };
-		62F4D68A1C55CA90002E2E4B /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F4D6861C55CA90002E2E4B /* Curry.framework */; };
-		62F4D68B1C55CA90002E2E4B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F4D6871C55CA90002E2E4B /* Result.framework */; };
-		62F4D68C1C55CA90002E2E4B /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F4D6881C55CA90002E2E4B /* Argo.framework */; };
+		366861971C57D84700CE2253 /* SalesForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366861961C57D84700CE2253 /* SalesForce.swift */; };
+		3668619A1C57F20400CE2253 /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366861991C57F20400CE2253 /* OAuth2.swift */; };
+		3668619C1C57F2AA00CE2253 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668619B1C57F2AA00CE2253 /* Endpoint.swift */; };
+		3668619E1C57F2DF00CE2253 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3668619D1C57F2DF00CE2253 /* Routes.swift */; };
+		366861AB1C57FEDA00CE2253 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366861A71C57FEDA00CE2253 /* Argo.framework */; };
+		366861AC1C57FEDA00CE2253 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366861A81C57FEDA00CE2253 /* Curry.framework */; };
+		366861AD1C57FEDA00CE2253 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366861A91C57FEDA00CE2253 /* Result.framework */; };
+		366861AE1C57FEDA00CE2253 /* Swish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366861AA1C57FEDA00CE2253 /* Swish.framework */; };
 		62F4E0AF1C55C4D000635728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4E0AE1C55C4D000635728 /* AppDelegate.swift */; };
 		62F4E0B11C55C4D000635728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4E0B01C55C4D000635728 /* ViewController.swift */; };
 		62F4E0B41C55C4D000635728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F4E0B21C55C4D000635728 /* Main.storyboard */; };
@@ -38,10 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		62F4D6851C55CA90002E2E4B /* Swish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swish.framework; path = Carthage/Build/iOS/Swish.framework; sourceTree = "<group>"; };
-		62F4D6861C55CA90002E2E4B /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = Carthage/Build/iOS/Curry.framework; sourceTree = "<group>"; };
-		62F4D6871C55CA90002E2E4B /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
-		62F4D6881C55CA90002E2E4B /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
+		366861961C57D84700CE2253 /* SalesForce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesForce.swift; sourceTree = "<group>"; };
+		366861991C57F20400CE2253 /* OAuth2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2.swift; sourceTree = "<group>"; };
+		3668619B1C57F2AA00CE2253 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		3668619D1C57F2DF00CE2253 /* Routes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		366861A71C57FEDA00CE2253 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
+		366861A81C57FEDA00CE2253 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Curry.framework; path = Carthage/Build/iOS/Curry.framework; sourceTree = "<group>"; };
+		366861A91C57FEDA00CE2253 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		366861AA1C57FEDA00CE2253 /* Swish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swish.framework; path = Carthage/Build/iOS/Swish.framework; sourceTree = "<group>"; };
 		62F4E0AB1C55C4D000635728 /* SalesForceAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesForceAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F4E0AE1C55C4D000635728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62F4E0B01C55C4D000635728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,10 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62F4D6891C55CA90002E2E4B /* Swish.framework in Frameworks */,
-				62F4D68A1C55CA90002E2E4B /* Curry.framework in Frameworks */,
-				62F4D68B1C55CA90002E2E4B /* Result.framework in Frameworks */,
-				62F4D68C1C55CA90002E2E4B /* Argo.framework in Frameworks */,
+				366861AB1C57FEDA00CE2253 /* Argo.framework in Frameworks */,
+				366861AC1C57FEDA00CE2253 /* Curry.framework in Frameworks */,
+				366861AD1C57FEDA00CE2253 /* Result.framework in Frameworks */,
+				366861AE1C57FEDA00CE2253 /* Swish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,13 +94,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		62F4D68D1C55CA95002E2E4B /* Frameworks */ = {
+		366861981C57F1F500CE2253 /* Endpoints */ = {
 			isa = PBXGroup;
 			children = (
-				62F4D6851C55CA90002E2E4B /* Swish.framework */,
-				62F4D6861C55CA90002E2E4B /* Curry.framework */,
-				62F4D6871C55CA90002E2E4B /* Result.framework */,
-				62F4D6881C55CA90002E2E4B /* Argo.framework */,
+				3668619B1C57F2AA00CE2253 /* Endpoint.swift */,
+				366861991C57F20400CE2253 /* OAuth2.swift */,
+				366861961C57D84700CE2253 /* SalesForce.swift */,
+				3668619D1C57F2DF00CE2253 /* Routes.swift */,
+			);
+			name = Endpoints;
+			sourceTree = "<group>";
+		};
+		366861B01C57FF7000CE2253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				366861A71C57FEDA00CE2253 /* Argo.framework */,
+				366861A81C57FEDA00CE2253 /* Curry.framework */,
+				366861A91C57FEDA00CE2253 /* Result.framework */,
+				366861AA1C57FEDA00CE2253 /* Swish.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,7 +119,7 @@
 		62F4E0A21C55C4D000635728 = {
 			isa = PBXGroup;
 			children = (
-				62F4D68D1C55CA95002E2E4B /* Frameworks */,
+				366861B01C57FF7000CE2253 /* Frameworks */,
 				62F4E0AD1C55C4D000635728 /* SalesForceAPI */,
 				62F4E0C21C55C4D000635728 /* SalesForceAPITests */,
 				62F4E0CD1C55C4D000635728 /* SalesForceAPIUITests */,
@@ -121,6 +140,7 @@
 		62F4E0AD1C55C4D000635728 /* SalesForceAPI */ = {
 			isa = PBXGroup;
 			children = (
+				366861981C57F1F500CE2253 /* Endpoints */,
 				62F4E0AE1C55C4D000635728 /* AppDelegate.swift */,
 				62F4E0B01C55C4D000635728 /* ViewController.swift */,
 				62F4E0B21C55C4D000635728 /* Main.storyboard */,
@@ -159,6 +179,7 @@
 				62F4E0A71C55C4D000635728 /* Sources */,
 				62F4E0A81C55C4D000635728 /* Frameworks */,
 				62F4E0A91C55C4D000635728 /* Resources */,
+				366861AF1C57FF0000CE2253 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -275,13 +296,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		366861AF1C57FF0000CE2253 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Argo.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Curry.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Swish.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62F4E0A71C55C4D000635728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				62F4E0B11C55C4D000635728 /* ViewController.swift in Sources */,
+				3668619E1C57F2DF00CE2253 /* Routes.swift in Sources */,
+				366861971C57D84700CE2253 /* SalesForce.swift in Sources */,
+				3668619A1C57F20400CE2253 /* OAuth2.swift in Sources */,
 				62F4E0AF1C55C4D000635728 /* AppDelegate.swift in Sources */,
+				3668619C1C57F2AA00CE2253 /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
